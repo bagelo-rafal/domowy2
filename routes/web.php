@@ -55,6 +55,14 @@ Route::group(['prefix' => 'quickhelp'], function(){
     Route::get('/', function () { return view('pages.och.waiting'); });
     Route::get('active', function () { return view('pages.och.active'); });
     Route::get('history', function () { return view('pages.och.history'); });
+    Route::get('room', function () { return view('pages.och.room'); });
+});
+
+Route::group(['prefix' => 'visits'], function(){
+    Route::get('/', function () { return view('pages.visits.waiting'); });
+    Route::get('active', function () { return view('pages.visits.active'); });
+    Route::get('history', function () { return view('pages.visits.history'); });
+    Route::get('room', function () { return view('pages.visits.room'); });
 });
 
 Route::group(['prefix' => 'calendar'], function(){
