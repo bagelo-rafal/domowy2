@@ -51,6 +51,12 @@ Route::group(['prefix' => 'doctors'], function(){
     Route::get('/details', function () { return view('pages.doctors.details'); });
 });
 
+Route::group(['prefix' => 'plans'], function(){
+    Route::get('/plan1', function () { return view('pages.plans.plan1'); });
+    Route::get('/plan2', function () { return view('pages.plans.plan2'); });
+    Route::get('/plan3', function () { return view('pages.plans.plan3'); });
+});
+
 Route::group(['prefix' => 'invoices'], function(){
     Route::get('/income', function () { return view('pages.orders.income'); });
     Route::get('/costly', function () { return view('pages.orders.costly'); });
