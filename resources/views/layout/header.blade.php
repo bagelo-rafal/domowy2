@@ -29,7 +29,7 @@
               <div class="dropdown-body">
                 <ul class="profile-nav p-0 pt-3">
                   <li class="nav-item">
-                    <a href="javascript:;" class="nav-link">
+                    <a href="/my-account" class="nav-link">
                       <i data-feather="edit"></i>
                       <span>Ustawienia</span>
                     </a>
@@ -88,7 +88,7 @@
             <i class="link-arrow"></i>
           </a>
           <div class="submenu">
-            <ul class="submenu-item">          
+            <ul class="submenu-item">
               <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/income') }}">Przychodowe</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/costly') }}">Kosztowe</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/add') }}">Wystaw rachunek</a></li>
