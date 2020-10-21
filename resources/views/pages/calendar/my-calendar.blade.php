@@ -33,49 +33,6 @@ W tym widoku lekarz widzi swój kalendarz wolnych terminów oraz zamówionych e-
     </div>
   </div>
 </div>
-
-<div id="fullCalModal" class="modal fade">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 id="modalTitle1" class="modal-title"></h4>
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> <span class="sr-only">close</span></button>
-      </div>
-      <div id="modalBody1" class="modal-body"></div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button class="btn btn-primary">Event Page</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="createEventModal" class="modal fade">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 id="modalTitle2" class="modal-title">Add event</h4>
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> <span class="sr-only">close</span></button>
-      </div>
-      <div id="modalBody2" class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="formGroupExampleInput">Example label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-          </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput2">Another label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button class="btn btn-primary">Add</button>
-      </div>
-    </div>
-  </div>
-</div>
 @endsection
 
 @push('plugin-scripts')

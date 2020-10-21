@@ -22,6 +22,8 @@ $(function() {
       var length_sel = datatable.closest('.dataTables_wrapper').find('div[id$=_length] select');
       length_sel.removeClass('form-control-sm');
     });
+    $('#doctors').DataTable();
+    $('#doctor-review').DataTable();
   });
 
 });

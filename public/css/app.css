@@ -31485,6 +31485,17 @@ div.tagsinput span.tag a {
 .rtl .wizard > .actions > ul > li {
   float: right;
 }
-
+#free-slots_length {
+    display: none !important;
+}
+#free-slots_filter {
+    display: none;
+}
+#doctor-review_length {
+    display: none !important;
+}
+#doctor-review_filter {
+    display: none;
+}
 
 /*# sourceMappingURL=app.css.map*/

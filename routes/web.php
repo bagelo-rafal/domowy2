@@ -46,6 +46,11 @@ Route::group(['prefix' => 'accounts'], function(){
     Route::get('/', function () { return view('pages.accounts.list'); });
 });
 
+Route::group(['prefix' => 'doctors'], function(){
+    Route::get('/', function () { return view('pages.doctors.list'); });
+    Route::get('/details', function () { return view('pages.doctors.details'); });
+});
+
 Route::group(['prefix' => 'invoices'], function(){
     Route::get('/income', function () { return view('pages.orders.income'); });
     Route::get('/costly', function () { return view('pages.orders.costly'); });
