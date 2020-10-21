@@ -76,6 +76,19 @@
         </li>
         <li class="nav-item ">
           <a href="#" class="nav-link">
+            <i class="link-icon" data-feather="calendar"></i>
+            <span class="menu-title">Terminarz</span>
+            <i class="link-arrow"></i>
+          </a>
+          <div class="submenu">
+            <ul class="submenu-item">
+              <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/my') }}">Mój terminarz</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/add') }}">Dodaj terminarz</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link">
             <i class="link-icon" data-feather="user"></i>
             <span class="menu-title">Personel</span>
             <i class="link-arrow"></i>

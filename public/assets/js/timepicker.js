@@ -2,7 +2,7 @@
 $(function() {
   'use strict';
 
-  $('#datetimepickerExample').datetimepicker({
-    format: 'LT'
+  $('#timeFrom, #timeTo').datetimepicker({
+    format: 'HH:mm'
   });
 });

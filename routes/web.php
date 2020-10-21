@@ -45,7 +45,7 @@ Route::group(['prefix' => 'quickhelp'], function(){
 Route::group(['prefix' => 'calendar'], function(){
     Route::get('/', function () { return view('pages.calendar.list'); });
     Route::get('my', function () { return view('pages.calendar.my-calendar'); });
-    Route::get('history', function () { return view('pages.och.history'); });
+    Route::get('add', function () { return view('pages.calendar.add'); });
 });
 
 Route::group(['prefix' => 'error'], function(){
