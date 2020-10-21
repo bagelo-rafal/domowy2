@@ -1,3 +1,6 @@
+<!--
+Do tego widoku ma dostęp tylko lekarz. Dodaje on tutaj terminarz do kalendarza.
+-->
 @extends('layout.master')
 
 @push('plugin-styles')

@@ -8,7 +8,10 @@
         <ul class="navbar-nav">
           <li class="nav-item dropdown nav-profile">
             <a href="/doctors">
-              <button class="btn btn-sm btn-danger mr-3">Umów wizytę</button>
+              <button class="btn btn-sm btn-secondary mr-3">Umów wizytę</button>
+            </a>
+            <a href="/plans">
+              <button class="btn btn-sm btn-danger mr-3">Więcej korzyści</button>
             </a>
             <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="{{ url('https://via.placeholder.com/30x30') }}" alt="profile">
@@ -29,6 +32,12 @@
                     <a href="javascript:;" class="nav-link">
                       <i data-feather="edit"></i>
                       <span>Ustawienia</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:;" class="nav-link">
+                      <i data-feather="credit-card"></i>
+                      <span>Subskrypcja</span>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -68,6 +77,7 @@
               <li class="nav-item"><a class="nav-link" href="{{ url('/visits') }}">Poczekalnia</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/visits/active') }}">Trwające e-wizyty</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/visits/history') }}">Historia e-wizyt</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/doctors') }}">Umów wizytę</a></li>
             </ul>
           </div>
         </li>
@@ -99,6 +109,7 @@
           </a>
           <div class="submenu">
             <ul class="submenu-item">
+              <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/all') }}">Wszystkie terminarze</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/my') }}">Mój terminarz</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/add') }}">Dodaj terminarz</a></li>
             </ul>

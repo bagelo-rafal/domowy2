@@ -1,3 +1,7 @@
+<!--
+W tym widoku lekarz widzi swój kalendarz wolnych terminów oraz zamówionych e-wizyt.
+-->
+
 @extends('layout.master')
 
 @push('plugin-styles')
