@@ -3,15 +3,15 @@
     <div class="row">
       <div class="col-md-12 mb-3">
         <label>Numer karty:</label>
-        <input class="form-control" data-inputmask-alias="9999-9999-9999-9999">
+        <input id="card-number" name="card-number" class="form-control" data-inputmask-alias="9999-9999-9999-9999">
       </div>
       <div class="col-md-6">
         <label>Data ważności:</label>
-        <input class="form-control" data-inputmask-alias="99/99">
+        <input id="card-date" name="card-date" class="form-control" data-inputmask-alias="99/99">
       </div>
       <div class="col-md-6">
         <label>Kod CVC:</label>
-        <input class="form-control" data-inputmask-alias="999">
+        <input id="card-cvc" name="card-cvc" class="form-control" data-inputmask-alias="999">
       </div>
     </div>
   </div>

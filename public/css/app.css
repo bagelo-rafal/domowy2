@@ -31497,5 +31497,11 @@ div.tagsinput span.tag a {
 #doctor-review_filter {
     display: none;
 }
+#event-slots_length {
+    display: none !important;
+}
+#event-slots_filter {
+    display: none;
+}
 
 /*# sourceMappingURL=app.css.map*/

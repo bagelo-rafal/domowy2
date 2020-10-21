@@ -116,7 +116,7 @@
           </a>
           <div class="submenu">
             <ul class="submenu-item">
-              <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/all') }}">Wszystkie terminarze</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/doctors') }}">Wszystkie terminarze</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/my') }}">Mój terminarz</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/calendar/add') }}">Dodaj terminarz</a></li>
             </ul>
