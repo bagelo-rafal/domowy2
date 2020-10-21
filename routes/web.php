@@ -36,6 +36,21 @@ Route::group(['prefix' => 'orders'], function(){
     Route::get('edit', function () { return view('pages.orders.edit'); });
 });
 
+Route::group(['prefix' => 'patient'], function(){
+    Route::get('/', function () { return view('pages.patients.list'); });
+    Route::get('create', function () { return view('pages.patients.add'); });
+    Route::get('edit', function () { return view('pages.patients.edit'); });
+});
+
+Route::group(['prefix' => 'accounts'], function(){
+    Route::get('/', function () { return view('pages.accounts.list'); });
+});
+
+Route::group(['prefix' => 'invoices'], function(){
+    Route::get('/income', function () { return view('pages.orders.income'); });
+    Route::get('/costly', function () { return view('pages.orders.costly'); });
+});
+
 Route::group(['prefix' => 'quickhelp'], function(){
     Route::get('/', function () { return view('pages.och.waiting'); });
     Route::get('active', function () { return view('pages.och.active'); });

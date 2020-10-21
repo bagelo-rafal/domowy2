@@ -1,14 +1,14 @@
 $(function() {
   'use strict';
 
-  if($('#setDate').length) {
+  if($('#setDate, #childBorn, #parentBorn').length) {
     var date = new Date();
     var today = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-    $('#setDate').datepicker({
+    $('#setDate, #childBorn, #parentBorn').datepicker({
       format: "mm/dd/yyyy",
       todayHighlight: true,
       autoclose: true
     });
-    $('#setDate').datepicker('setDate', today);
+    $('#setDate, #childBorn, #parentBorn').datepicker('setDate', today);
   }
 });

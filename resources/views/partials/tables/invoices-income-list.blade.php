@@ -3,6 +3,7 @@
 					<tr>
 						<th>Numer faktury</th>
 						<th>Data wystawienia</th>
+						<th>Faktura za</th>
 						<th>Wartość</th>
 						<th>Akcja</th>
 					</tr>
@@ -11,6 +12,18 @@
 					<tr>
 	          <td>#212</td>
 	          <td>12/12/2020</td>
+	          <td>Subskrypcję</td>
+	          <td>19 zł</td>
+	          <td>
+	            <a href="#">
+	              <button class="btn btn-sm btn-warning">Pobierz</button>
+	            </a>
+	          </td>
+					</tr>
+					<tr>
+	          <td>#213</td>
+	          <td>12/12/2020</td>
+	          <td>E-wizytę</td>
 	          <td>89 zł</td>
 	          <td>
 	            <a href="#">

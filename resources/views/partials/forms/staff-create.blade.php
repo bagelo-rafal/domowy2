@@ -26,7 +26,7 @@
   </div>
 </div>
 <div class="form-group row">
-  <label for="doctor-phone" class="col-3 col-form-label">Numer telefonu</label>
+  <label for="staff-phone" class="col-3 col-form-label">Numer telefonu</label>
   <div class="col-9">
     <div class="input-group">
       <div class="input-group-prepend">
@@ -34,7 +34,7 @@
           <i class="fa fa-phone"></i>
         </div>
       </div>
-      <input id="doctor-phone" name="doctor-phone" type="text" class="form-control">
+      <input id="staff-phone" name="staff-phone" type="text" class="form-control">
     </div>
   </div>
 </div>

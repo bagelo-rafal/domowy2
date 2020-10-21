@@ -82,10 +82,17 @@
           </div>
         </li>
         <li class="nav-item ">
-          <a href="#" class="nav-link">
+          <a href="/orders" class="nav-link">
             <i class="link-icon" data-feather="shopping-cart"></i>
             <span class="menu-title">Faktury</span>
+            <i class="link-arrow"></i>
           </a>
+          <div class="submenu">
+            <ul class="submenu-item">
+              <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/income') }}">Przychodowe</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/costly') }}">Kosztowe</a></li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item ">
           <a href="#" class="nav-link">
@@ -136,8 +143,9 @@
           </a>
           <div class="submenu">
             <ul class="submenu-item">
-              <li class="nav-item"><a class="nav-link" href="{{ url('/patients') }}">Zobacz wszystkich</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ url('/patients/add') }}">Dodaj pacjenta</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/patient') }}">Lista pacjentów</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/accounts') }}">Lista kont</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/patient/create') }}">Dodaj pacjenta</a></li>
             </ul>
           </div>
         </li>

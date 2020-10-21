@@ -7,14 +7,14 @@
 @section('content')
 <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
   <div>
-    <h4 class="mb-3 mb-md-0">Faktury</h4>
+    <h4 class="mb-3 mb-md-0">Faktury kosztowe i rachunki od lekarzy</h4>
   </div>
 </div>
 <div class="row">
   <div class="col-md-12 stretch-card">
     <div class="card">
       <div class="card-body">
-        @include('partials.tables.invoices-list')
+        @include('partials.tables.invoices-costly-list')
       </div>
     </div>
   </div>
