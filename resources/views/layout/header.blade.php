@@ -11,7 +11,7 @@
               <button class="btn btn-sm btn-secondary mr-3">Umów wizytę</button>
             </a>
             <a target="_blank" href="https://domowypediatra.pl/cennik/">
-              <button class="btn btn-sm btn-danger mr-3" data-toggle="modal" data-target="#subModal">Więcej korzyści</button>
+              <button class="btn btn-sm btn-danger mr-3">Więcej korzyści</button>
             </a>
             <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="{{ url('https://via.placeholder.com/30x30') }}" alt="profile">
@@ -88,9 +88,10 @@
             <i class="link-arrow"></i>
           </a>
           <div class="submenu">
-            <ul class="submenu-item">
+            <ul class="submenu-item">          
               <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/income') }}">Przychodowe</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/costly') }}">Kosztowe</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/invoices/add') }}">Wystaw rachunek</a></li>
             </ul>
           </div>
         </li>
@@ -152,12 +153,4 @@
       </ul>
     </div>
   </nav>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="subModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      @include('partials.tables.pakiety')
-    </div>
-  </div>
 </div>
