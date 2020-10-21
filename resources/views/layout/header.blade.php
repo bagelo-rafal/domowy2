@@ -7,6 +7,9 @@
         </a>
         <ul class="navbar-nav">
           <li class="nav-item dropdown nav-profile">
+            <a href="/doctors">
+              <button class="btn btn-sm btn-danger mr-3">Umów wizytę</button>
+            </a>
             <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="{{ url('https://via.placeholder.com/30x30') }}" alt="profile">
             </a>
@@ -56,6 +59,20 @@
         </li>
         <li class="nav-item ">
           <a href="#" class="nav-link">
+            <i class="link-icon" data-feather="users"></i>
+            <span class="menu-title">E-wizyty</span>
+            <i class="link-arrow"></i>
+          </a>
+          <div class="submenu">
+            <ul class="submenu-item">
+              <li class="nav-item"><a class="nav-link" href="{{ url('/visits') }}">Poczekalnia</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/visits/active') }}">Trwające e-wizyty</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/visits/history') }}">Historia e-wizyt</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link">
             <i class="link-icon" data-feather="shopping-cart"></i>
             <span class="menu-title">Faktury</span>
           </a>
@@ -97,6 +114,19 @@
             <ul class="submenu-item">
               <li class="nav-item"><a class="nav-link" href="{{ url('/staff') }}">Zobacz wszystkich</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ url('/staff/create') }}">Dodaj</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link">
+            <i class="link-icon" data-feather="users"></i>
+            <span class="menu-title">Pacjenci</span>
+            <i class="link-arrow"></i>
+          </a>
+          <div class="submenu">
+            <ul class="submenu-item">
+              <li class="nav-item"><a class="nav-link" href="{{ url('/patients') }}">Zobacz wszystkich</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/patients/add') }}">Dodaj pacjenta</a></li>
             </ul>
           </div>
         </li>
