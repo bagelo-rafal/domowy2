@@ -28,14 +28,14 @@
 
 @push('custom-scripts')
 <script>
-$('.phone, .pwz, .adres, .spec').hide();
+$('.phone, .pwz, .adres, .spec, .worktype, .nip').hide();
 
 $( "#role" ).change(function() {
 if($('option[value="lekarz"]').is(':selected')) {
-	$('.phone, .pwz, .adres, .spec').show();
-	$('.phone input, .pwz input, .adres input .spec input').attr('required','true')
+	$('.phone, .pwz, .adres, .spec, .worktype, .nip').show();
+	$('.phone input, .pwz input, .adres input .spec input,').attr('required','true')
 } else if (!$('option[value="lekarz"]').is(':selected')) {
-	$('.phone, .pwz, .adres, .spec').hide();
+	$('.phone, .pwz, .adres, .spec, .worktype, .nip').hide();
   $('.phone input, .pwz input, .adres input, .spec input').removeAttr('required','true')
 }
 });
