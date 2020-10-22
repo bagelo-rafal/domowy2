@@ -1,10 +1,10 @@
 $(function() {
   'use strict';
 
-  if($('#setDate, #childBorn, #parentBorn, #slotsDateFilter').length) {
+  if($('#setDate, #childBorn, #parentBorn, #slotsDateFilter, #memberBorn').length) {
     var date = new Date();
     var today = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-    $('#setDate, #childBorn, #parentBorn').datepicker({
+    $('#setDate, #childBorn, #parentBorn, #memberBorn').datepicker({
       format: "mm/dd/yyyy",
       todayHighlight: true,
       autoclose: true
@@ -14,6 +14,6 @@ $(function() {
       todayHighlight: true,
       autoclose: true
     });
-    $('#setDate, #childBorn, #parentBorn').datepicker('setDate', today);
+    $('#setDate, #childBorn, #parentBorn, #memberBorn').datepicker('setDate', today);
   }
 });

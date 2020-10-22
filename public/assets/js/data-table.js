@@ -24,6 +24,7 @@ $(function() {
     });
     $('#doctors').DataTable();
     $('#doctor-review').DataTable();
+    $('#familylist').DataTable();
   });
 
 });

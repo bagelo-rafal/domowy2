@@ -50,6 +50,7 @@ Route::group(['prefix' => 'accounts'], function(){
 Route::group(['prefix' => 'my-account'], function(){
     Route::get('/', function () { return view('pages.accounts.my-account'); });
     Route::get('/subscription', function () { return view('pages.accounts.my-subscription'); });
+    Route::get('/family', function () { return view('pages.accounts.my-family'); });
 });
 
 Route::group(['prefix' => 'doctors'], function(){

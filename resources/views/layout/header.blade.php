@@ -41,6 +41,12 @@
                     </a>
                   </li>
                   <li class="nav-item">
+                    <a href="/my-account/family" class="nav-link">
+                      <i data-feather="users"></i>
+                      <span>Moja rodzina</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a href="javascript:;" class="nav-link">
                       <i data-feather="log-out"></i>
                       <span>Wyloguj się</span>
