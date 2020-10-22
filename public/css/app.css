@@ -2631,7 +2631,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 100% ;
+    max-width: 1240px ;
   }
 }
 
@@ -2677,7 +2677,7 @@ pre code {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 100%;
+    max-width: 1240px;
   }
 }
 
@@ -23328,7 +23328,7 @@ address p {
 
 @media (min-width: 1200px) {
   .page-wrapper .page-content {
-    max-width: 100%;
+    max-width: 1240px;
   }
 }
 

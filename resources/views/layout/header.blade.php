@@ -35,7 +35,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="javascript:;" class="nav-link">
+                    <a href="/my-account/subscription" class="nav-link">
                       <i data-feather="credit-card"></i>
                       <span>Subskrypcja</span>
                     </a>
