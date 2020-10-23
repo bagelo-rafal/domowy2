@@ -4,7 +4,6 @@
       <th>Pacjent</th>
       <th>Data</th>
       <th>Godzina</th>
-      <th>Akcja</th>
     </tr>
   </thead>
   <tbody>
@@ -31,9 +30,6 @@
       </td>
       <td>
         10:30
-      </td>
-      <td>
-        <button type="button" class="btn btn-sm btn-danger"  data-toggle="modal" data-target="#postponeVisit">Przełóż</button>
       </td>
     </tr>
   </tbody>
