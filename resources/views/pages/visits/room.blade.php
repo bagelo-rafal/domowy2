@@ -15,7 +15,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="mb-3">Podstawowe informacje</h5>
-        @include('partials.tables.och-patient-info')
+        @include('partials.tables.visit-patient-info')
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
   <div class="col-md-12 stretch-card">
     <div class="card">
       <div class="card-body">
-          @include('partials.tables.patient-cart')
+          @include('partials.tables.patient-card')
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@
   <div class="col-md-12 stretch-card">
     <div class="card">
       <div class="card-body">
-          @include('partials.form.add-patient-cart')
+          @include('partials.forms.add-patient-card')
       </div>
     </div>
   </div>
