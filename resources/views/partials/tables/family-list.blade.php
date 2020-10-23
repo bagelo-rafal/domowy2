@@ -12,7 +12,7 @@
     <td>11/06/2014</td>
     <td>15472148449</td>
     <td>
-      <a href="/my-account/family/edit">
+      <a href="/patient/details">
         <button class="btn btn-sm btn-warning">Więcej</button>
       </a>
     </td>
