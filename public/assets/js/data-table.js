@@ -12,7 +12,7 @@ $(function() {
         search: "Szukaj"
       }
     });
-    $('#stafflist, #orders, #ochwaiting, #ochactive, #patientslist, #accountlist, #costly, #visitswaiting, #visitsactive, #visitshistory').each(function() {
+    $('#stafflist, #orders, #ochwaiting, #patientcard, #patientdetails, #ochactive, #patientslist, #accountlist, #costly, #visitswaiting, #visitsactive, #visitshistory').each(function() {
       var datatable = $(this);
       // SEARCH - Add the placeholder for Search and Turn this into in-line form control
       var search_input = datatable.closest('.dataTables_wrapper').find('div[id$=_filter] input');
@@ -25,6 +25,7 @@ $(function() {
     $('#doctors').DataTable();
     $('#doctor-review').DataTable();
     $('#familylist').DataTable();
+    $('#patientvisitshistory').DataTable();
   });
 
 });
