@@ -24,13 +24,5 @@
         84231277332
       </td>
     </tr>
-    <tr>
-      <td>
-        Miasto
-      </td>
-      <td>
-        Szczecin
-      </td>
-    </tr>
   </tbody>
 </table>
