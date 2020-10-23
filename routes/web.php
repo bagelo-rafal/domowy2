@@ -39,7 +39,7 @@ Route::group(['prefix' => 'orders'], function(){
 Route::group(['prefix' => 'patient'], function(){
     Route::get('/', function () { return view('pages.patients.list'); });
     Route::get('create', function () { return view('pages.patients.add'); });
-    Route::get('edit', function () { return view('pages.patients.edit'); });
+    Route::get('details', function () { return view('pages.patients.details'); });
 });
 
 Route::group(['prefix' => 'accounts'], function(){
