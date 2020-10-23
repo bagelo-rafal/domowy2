@@ -20,23 +20,6 @@
     </div>
   </div>
 </div>
-<div class="mt-4 d-flex justify-content-between align-items-center flex-wrap grid-margin">
-  <div>
-    <h4 class="mb-3 mb-md-0">Usuń konto</h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12 stretch-card">
-    <div class="card">
-      <div class="card-body">
-          Jeśli chcesz bezpowrotnie usunąć swoje konto, naciśnij przycisk poniżej. Uwaga! Ta operacja jest nieodwracalna - wszystkie Twoje dane zostaną usunięte, w tym członkowie rodziny, historia transakcji i karta pacjenta.
-          <a style="display:block;" class="mt-2" href="">
-            <button type="button" class="btn btn-danger">Usuń moje konto</button>
-          </a>
-      </div>
-    </div>
-  </div>
-</div>
 
 @endsection
 
