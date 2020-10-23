@@ -17,9 +17,6 @@
       <td>
         10:00
       </td>
-      <td>
-        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#postponeVisit">Przełóż</button>
-      </td>
     </tr>
     <tr>
       <td>
