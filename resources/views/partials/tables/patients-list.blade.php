@@ -12,7 +12,7 @@
     <td>Mężczyzna</td>
     <td>27/01/1986</td>
     <td>
-      <a href="/patient/edit">
+      <a href="/patient/details">
         <button class="btn btn-sm btn-warning">Więcej</button>
       </a>
     </td>
