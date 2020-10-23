@@ -30,9 +30,9 @@ Route::group(['prefix' => 'staff'], function(){
     Route::get('edit', function () { return view('pages.staff.edit'); });
 });
 
-Route::group(['prefix' => 'orders'], function(){
+Route::group(['prefix' => 'invoices'], function(){
     Route::get('/', function () { return view('pages.orders.list'); });
-    Route::get('create', function () { return view('pages.orders.add'); });
+    Route::get('add', function () { return view('pages.orders.add'); });
     Route::get('edit', function () { return view('pages.orders.edit'); });
 });
 
