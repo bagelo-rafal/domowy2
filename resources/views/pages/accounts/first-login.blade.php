@@ -13,7 +13,6 @@
               <h4 class="mb-1">To Twoje pierwsze logowanie</h4>
               <p class="mb-4">Zgodnie z obowiązującym prawem, w celu świadczenia usług medycznych<br>wymagane jest podanie pełnych danych identyfikacyjnych</p>
               @include('partials.forms.first-login')
-              <a href="{{ url('/my-account/subscriptions') }}" class="d-block mt-3 text-muted">Masz już konto? Zaloguj się</a>
             </div>
           </div>
         </div>
