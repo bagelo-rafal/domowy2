@@ -29,6 +29,8 @@ $(function() {
     $('#userInfo').DataTable();
     $('#paymentHistory').DataTable();
     $('#userPayments').DataTable();
+    $('#Visitpatientcard').DataTable();
+    $('#visitInfo').DataTable();
   });
 
 });

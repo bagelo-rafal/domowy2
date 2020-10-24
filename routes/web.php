@@ -84,6 +84,7 @@ Route::group(['prefix' => 'visits'], function(){
     Route::get('active', function () { return view('pages.visits.active'); });
     Route::get('history', function () { return view('pages.visits.history'); });
     Route::get('room', function () { return view('pages.visits.room'); });
+    Route::get('details', function () { return view('pages.visits.details'); });
 });
 
 Route::group(['prefix' => 'calendar'], function(){
