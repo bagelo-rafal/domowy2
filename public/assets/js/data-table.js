@@ -26,6 +26,8 @@ $(function() {
     $('#doctor-review').DataTable();
     $('#familylist').DataTable();
     $('#patientvisitshistory').DataTable();
+    $('#userInfo').DataTable();
+    $('#paymentHistory').DataTable();
   });
 
 });
