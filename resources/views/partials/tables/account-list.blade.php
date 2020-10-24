@@ -14,7 +14,7 @@
     <td>478411546</td>
     <td>Jednorazowe wizyty</td>
     <td>
-      <a href="/account/edit">
+      <a href="/accounts/details">
         <button class="btn btn-sm btn-warning">Więcej</button>
       </a>
     </td>
