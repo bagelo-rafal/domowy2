@@ -28,6 +28,7 @@ $(function() {
     $('#patientvisitshistory').DataTable();
     $('#userInfo').DataTable();
     $('#paymentHistory').DataTable();
+    $('#userPayments').DataTable();
   });
 
 });
