@@ -30,6 +30,34 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group row">
+        <label for="address" class="col-md-12">Adres</label>
+          <div class="col-md-12">
+            <input type="text" id="address" name="address" class="form-control">
+          </div>
+        </div>
+    </div>
+      <div class="col-md-6">
+      <div class="form-group row">
+          <label for="postcode" class="col-md-12">Kod pocztowy</label>
+          <div class="col-md-12">
+            <input type="text" id="postcode" name="postcode" class="form-control">
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group row">
+        <label for="city" class="col-md-12">Miasto</label>
+          <div class="col-md-12">
+            <input type="text" id="city" name="city" class="form-control">
+          </div>
+        </div>
+    </div>
+  </div>
   <div class="form-group">
     <button name="submit" type="submit" class="btn btn-primary">Kontynuuj</button>
   </div>
