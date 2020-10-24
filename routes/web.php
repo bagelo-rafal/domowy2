@@ -45,6 +45,7 @@ Route::group(['prefix' => 'patient'], function(){
 Route::group(['prefix' => 'accounts'], function(){
     Route::get('/', function () { return view('pages.accounts.list'); });
     Route::get('/first', function () { return view('pages.accounts.first-login'); });
+    Route::get('/details', function () { return view('pages.accounts.details'); });
 });
 
 Route::group(['prefix' => 'my-account'], function(){
