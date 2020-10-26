@@ -14,21 +14,6 @@
         <textarea class="form-control" id="visit-reason" name="visit-reason" rows="6" required></textarea>
       </div>
     </div>
-    <h4 class="my-3">Dane do płatności</h4>
-    <div class="row">
-      <div class="col-md-12 mb-3">
-        <label>Numer karty:</label>
-        <input id="card-number" name="card-number" class="form-control" required data-inputmask-alias="9999-9999-9999-9999">
-      </div>
-      <div class="col-md-6">
-        <label>Data ważności:</label>
-        <input id="card-date" name="card-date" class="form-control" required data-inputmask-alias="99/99">
-      </div>
-      <div class="col-md-6 mb-3">
-        <label>Kod CVC:</label>
-        <input id="card-cvc" name="card-cvc" class="form-control" required data-inputmask-alias="999">
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <label>Masz kod rabatowy? Wpisz go poniżej</label>
@@ -50,6 +35,15 @@
           <label for="checkbox_0" class="">
           <input name="consent1" required id="consent1" type="checkbox" class="" value="consent1">
           Zapoznałem/am się z <a target="_blank" href="https://domowypediatra.pl/polityka-prywatnosci/">polityką prywatności</a> oraz <a target="_blank" href="https://domowypediatra.pl/regulamin/">regulaminem</a> platformy DomowyPediatra.pl i wyrażam zgodę na przetwarzanie moich danych osobowych przez firmę MedPartner sp. z.o.o.</label>
+        </div>
+      </div>
+    </div>
+    <div class="my-3" style="text-align:justify;" class="form-group">
+      <div>
+        <div class="">
+          <label for="checkbox_0" class="">
+          <input name="consent2" required id="consent2" type="checkbox" class="" value="consent2">
+          Wyrażam zgodę na obciążenie mojej karty kwotą price w ramach rezerwacji wideowizyty w portalu DomowyPediatra.pl</label>
         </div>
       </div>
     </div>
